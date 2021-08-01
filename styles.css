@@ -86,3 +86,6 @@ nav .active {
     box-shadow: 0 5px 5px lightslategray; 
 }
 
+body {
+    text-align: justify;
+}
