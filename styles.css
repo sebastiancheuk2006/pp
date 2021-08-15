@@ -14,35 +14,48 @@ hr {
     height: 5px;
     background-color: black;
 }
-nav {
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    background-color: beige;
-    top: 0;
-    margin: 0;
-    display: flex; 
-    align-items: center;
-}
-nav a:hover {
-    background-color: rgb(228, 228, 203);
-    
-    padding:5px;
-    border-radius: 0.2em;
-    color: black;
+.topnav {
+    overflow: hidden;
+    background-color:black;
   }
-.title {
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: white;
     text-align: center;
-    margin-top: 80px;
-}
-nav a {
-    margin-left: 20px;
-    color: black;
+    padding: 14px 15px;
     text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid red;
 }
+  
+  .topnav a.active {
+    border-bottom: 3px solid red;
+  }
+
+.indextitle {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font: helvetica;
+}
+
+img {
+    width: 100%;
+    padding:0;
+    margin:0;
+    
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 nav .active {
     font-size: 1.25em;
@@ -59,7 +72,7 @@ nav .active {
     width: 100px;
     height: auto;
     padding: 20px;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 20px;
     display: flex;
     align-items: center; 
@@ -89,6 +102,4 @@ nav .active {
 body {
     text-align: justify;
 }
-html {background-color: black}
-html {colour: white}
 
